@@ -2,8 +2,7 @@
 # webscraping_multiple_pages
  
 
-1.
-First, we’ll scrape the first 4 pages of each year in the interval 2000-2017. 
+1. First, we’ll scrape the first 4 pages of each year in the interval 2000-2017. 
 4 pages for each of the 18 years makes for a total of 72 pages. Each page has 
 50 movies, so we’ll scrape data for 3600 movies at most. But not all the movies 
 have a Metascore, so the number will be lower than that. Even so, we are still 
@@ -16,8 +15,7 @@ Creates file:
 moive_ratings.csv
 
 
-2.
-Second, we will examine and clean the scraped IMDB data
+2. Second, we will examine and clean the scraped IMDB data
 
 Files to use:
 moive_ratings.csv
@@ -27,9 +25,7 @@ Creates File:
 moive_ratings_cleaned.csv
 
 
-3. 
-Third, we will create visualizations to understand our data sturcture and 
-distribution.
+3.  Third, we will create visualizations to understand our data sturcture and distribution.
 
 Files to use:
 moive_ratings_cleaned.csv
