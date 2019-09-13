@@ -18,8 +18,7 @@ moive_ratings.csv
 2. Second, we will examine and clean the scraped IMDB data
 
 Files to use:
-moive_ratings.csv
-examining_and_cleaning_IMDB_data.py
+moive_ratings.csv, examining_and_cleaning_IMDB_data.py
 
 Creates File:
 moive_ratings_cleaned.csv
@@ -28,5 +27,4 @@ moive_ratings_cleaned.csv
 3.  Third, we will create visualizations to understand our data sturcture and distribution.
 
 Files to use:
-moive_ratings_cleaned.csv
-plotting_and_analysis_imdb.py
+moive_ratings_cleaned.csv, plotting_and_analysis_imdb.py
