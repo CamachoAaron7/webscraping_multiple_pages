@@ -1,6 +1,5 @@
 ﻿
-# webscraping_multiple_pages
-_cleaning_and_plotting_data
+# webscraping_multiple_pages_cleaning_and_plotting_data
 
 1. First, we’ll scrape the first 4 pages of each year in the interval 2000-2017. 
 4 pages for each of the 18 years makes for a total of 72 pages. Each page has 
