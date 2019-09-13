@@ -85,3 +85,18 @@ for year_url in years_url:
                 # Scrape the number of votes
                 vote = container.find('span', attrs = {'name':'nv'})['data-value']
                 votes.append(int(vote))
+
+
+
+### Examinging the Scraped Data
+import pandas as pd
+movie_ratings = pd.DataFrame({'movie': names,
+'year': years,
+'imdb': imdb_ratings,
+'metascore': metascores,
+'votes': votes
+})
+print(movie_ratings.info())
+movie_ratings.head(10)
+
+movie_ratings.to_csv('movie_ratings.csv')
